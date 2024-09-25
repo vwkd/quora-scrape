@@ -1,0 +1,8 @@
+{
+  "tasks": {
+    "scrape": "deno run --allow-net --allow-read=. --allow-write=. --allow-env --env-file=.env src/main.ts"
+  },
+  "imports": {
+    "@std/path": "jsr:@std/path@^1.0.6"
+  }
+}
